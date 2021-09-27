@@ -337,8 +337,9 @@ GameObject:
   m_Component:
   - component: {fileID: 384937669}
   - component: {fileID: 384937670}
+  - component: {fileID: 384937671}
   m_Layer: 0
-  m_Name: Ghost2_0
+  m_Name: Ghost2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -409,6 +410,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &384937671
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 384937668}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 89ddf5eaedb1ad94db1ae9eab212c0eb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &467231780
 GameObject:
   m_ObjectHideFlags: 0
@@ -454,7 +474,7 @@ GameObject:
   - component: {fileID: 491046530}
   - component: {fileID: 491046531}
   m_Layer: 0
-  m_Name: Ghost4_Death_0
+  m_Name: Ghost4_Death
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -619,7 +639,7 @@ GameObject:
   - component: {fileID: 607557741}
   - component: {fileID: 607557742}
   m_Layer: 0
-  m_Name: Ghost3_Recovering_0
+  m_Name: Ghost3_Recovering
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -837,7 +857,7 @@ GameObject:
   - component: {fileID: 787318834}
   - component: {fileID: 787318835}
   m_Layer: 0
-  m_Name: Ghost4_0
+  m_Name: Ghost4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -919,7 +939,7 @@ GameObject:
   - component: {fileID: 825698000}
   - component: {fileID: 825698001}
   m_Layer: 0
-  m_Name: Ghost4_Recovering_0
+  m_Name: Ghost4_Recovering
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1000,8 +1020,9 @@ GameObject:
   m_Component:
   - component: {fileID: 880820275}
   - component: {fileID: 880820276}
+  - component: {fileID: 880820277}
   m_Layer: 0
-  m_Name: Ghost2_Recovering_0
+  m_Name: Ghost2_Recovering
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1072,6 +1093,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &880820277
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880820274}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 76bd4a8195ea7834583a83b9f7d80452, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1029557681
 GameObject:
   m_ObjectHideFlags: 0
@@ -1083,7 +1123,7 @@ GameObject:
   - component: {fileID: 1029557682}
   - component: {fileID: 1029557683}
   m_Layer: 0
-  m_Name: Ghost4_Scared_0
+  m_Name: Ghost4_Scared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1281,7 +1321,7 @@ GameObject:
   - component: {fileID: 1110728285}
   - component: {fileID: 1110728286}
   m_Layer: 0
-  m_Name: Ghost3_Death_0
+  m_Name: Ghost3_Death
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1634,8 +1674,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1599690652}
   - component: {fileID: 1599690653}
+  - component: {fileID: 1599690654}
   m_Layer: 0
-  m_Name: Ghost2_Scared_0
+  m_Name: Ghost2_Scared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1706,6 +1747,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1599690654
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599690651}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1d04412d1203fe14199c6a670aef2da6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1622786259
 GameObject:
   m_ObjectHideFlags: 0
@@ -1751,7 +1811,7 @@ GameObject:
   - component: {fileID: 1713895438}
   - component: {fileID: 1713895439}
   m_Layer: 0
-  m_Name: Ghost3_Scared_0
+  m_Name: Ghost3_Scared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1832,8 +1892,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1728909672}
   - component: {fileID: 1728909673}
+  - component: {fileID: 1728909674}
   m_Layer: 0
-  m_Name: Ghost2_Death_0
+  m_Name: Ghost2_Death
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1904,6 +1965,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1728909674
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1728909671}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bfafa92cd3d98604893a9b067cb09c3a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1969935137
 GameObject:
   m_ObjectHideFlags: 0
@@ -1915,7 +1995,7 @@ GameObject:
   - component: {fileID: 1969935138}
   - component: {fileID: 1969935139}
   m_Layer: 0
-  m_Name: Ghost3_0
+  m_Name: Ghost3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
