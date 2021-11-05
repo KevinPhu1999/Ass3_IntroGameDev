@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 139771691}
   - component: {fileID: 139771690}
+  - component: {fileID: 139771692}
   m_Layer: 0
   m_Name: Intro
   m_TagString: Untagged
@@ -154,7 +155,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.477
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -248,8 +249,23 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &139771692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 139771689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6607fa66ae44e8949885d73b13dfd579, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 139771690}
+  Intro: {fileID: 8300000, guid: 017e27a7062ea2749b402f4ae65dc63b, type: 3}
+  Normal: {fileID: 8300000, guid: 5b6e44815f2fd6e428f1723805c513be, type: 3}
 --- !u!1 &146417870
 GameObject:
   m_ObjectHideFlags: 0
@@ -2610,7 +2626,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1191736228
 GameObject:

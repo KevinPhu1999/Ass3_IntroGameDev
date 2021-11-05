@@ -7,6 +7,7 @@ public class Level1_Load : MonoBehaviour
 {
     //public RectTransform loadingScreen;
     // Start is called before the first frame update
+
     void Start()
     {
         //loadingScreen.sizeDelta = new Vector2(Screen.width, Screen.height);
@@ -21,6 +22,7 @@ public class Level1_Load : MonoBehaviour
     public void LoadFirstLevel()
     {
         DontDestroyOnLoad(this);
+
         SceneManager.LoadSceneAsync(1);
     }
    /* public void StartButtonPressed()
